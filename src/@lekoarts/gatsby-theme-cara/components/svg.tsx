@@ -4,6 +4,10 @@ import { jsx } from "theme-ui"
 import { hidden } from "../styles/utils"
 
 const icons = {
+  gummybear: {
+      shape:(<img src="gummybear.png" width="300" height="300"/>),
+      viewBox: `0 0 30 30`,
+  },
   triangle: {
     shape: (
       <polygon
@@ -67,7 +71,7 @@ const icons = {
   },
 }
 
-type IconType = "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross"
+type IconType = "gummybear" | "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross"
 
 type SVGProps = {
   stroke?: boolean
