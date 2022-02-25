@@ -23,7 +23,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="peachring" width={16} left="30%" top="65%" />
         <Svg icon="pretzel" width={16} left="28%" top="15%" />
         <Svg icon="pretzel" width={6} left="75%" top="10%" />
-        <Svg icon="pretzel" hiddenMobile width={8} left="45%" top="10%" />
+        <Svg icon="pretzel" width={8} left="45%" top="10%" />
       </UpDownWide>
       <Svg icon="circle" hiddenMobile width={24} color="icon_darker" left="5%" top="70%" />
       <Svg icon="circle" width={6} color="icon_darkest" left="4%" top="20%" />
