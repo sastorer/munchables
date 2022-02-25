@@ -12,7 +12,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
     <Divider speed={0.2} offset={offset} factor={factor}>
       <UpDown>
-        <svg src="gummybear.png" width="300" height="300" left="30%" top="40%"/>
+        <svg width="300" height="300" left="30%" top="40%">
+            <image src="gummybear.png"/>
+        </svg>
         <Svg icon="gummybear" width={48} left="10%" top="20%" />
         <Svg icon="gummybear" width={48} stroke color="icon_red" left="60%" top="70%" />
         <Svg icon="gummybear" width={6} stroke color="icon_darker" left="60%" top="15%" />
