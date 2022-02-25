@@ -5,6 +5,9 @@ import { hidden } from "../styles/utils"
 import gummybear from "./images/gummybear.png"
 import peachring from "./images/peachring.png"
 import pretzel from "./images/pretzel.png"
+import sourgummyworm from "./images/sourgummyworm.png"
+import marsbar from "./images/marsbar.png"
+import goldfish from "./images/goldfish.png"
 
 const icons = {
   gummybear: {
@@ -27,6 +30,30 @@ const icons = {
     shape:(
       <svg width="300" height="300">
           <image xlinkHref={pretzel} width="300" height="300"/>
+      </svg>
+    ),
+    viewBox: `0 0 300 300`,
+  },
+  sourgummyworm: {
+    shape:(
+      <svg width="300" height="300">
+          <image xlinkHref={sourgummyworm} width="300" height="300"/>
+      </svg>
+    ),
+    viewBox: `0 0 300 300`,
+  },
+  marsbar: {
+    shape:(
+      <svg width="300" height="300">
+          <image xlinkHref={marsbar} width="300" height="300"/>
+      </svg>
+    ),
+    viewBox: `0 0 300 300`,
+  },
+  goldfish: {
+    shape:(
+      <svg width="300" height="300">
+          <image xlinkHref={goldfish} width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -94,7 +121,7 @@ const icons = {
   },
 }
 
-type IconType = "gummybear" | "peachring" | "pretzel" | "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross"
+type IconType = "gummybear" | "peachring" | "pretzel" | "sourgummyworm" | "marsbar" | "goldfish" | "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross"
 
 type SVGProps = {
   stroke?: boolean
