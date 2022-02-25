@@ -1,12 +1,17 @@
 /** @jsx jsx */
 import * as React from "react"
+import SvgUri from "react-native-svg-uri"
 import { jsx } from "theme-ui"
 import { hidden } from "../styles/utils"
 
 const icons = {
   gummybear: {
       shape:(
-        <img src="gummybear.png" width="300" height="300"/>
+        <SvgUri
+            width="200"
+            height="200"
+            source={{uri:'http://thenewcode.com/assets/images/thumbnails/homer-simpson.svg'}}
+        />
       ),
       viewBox: `0 0 300 300`,
   },
