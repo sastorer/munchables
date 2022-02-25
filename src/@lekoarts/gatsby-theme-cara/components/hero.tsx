@@ -23,16 +23,16 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="peachring" width={16} left="30%" top="65%" />
         <Svg icon="pretzel" width={16} left="28%" top="15%" />
         <Svg icon="pretzel" width={40} left="75%" top="10%" />
-        <Svg icon="pretzel" width={48} left="45%" top="10%" />
+        <Svg icon="pretzel" width={24} left="45%" top="10%" />
       </UpDownWide>
       <Svg icon="goldfish" width={24} left="5%" top="70%" />
-      <Svg icon="marsbar" width={48} left="4%" top="20%" />
-      <Svg icon="sourgummyworm" width={12} left="50%" top="60%" />
+      <Svg icon="marsbar" width={20} left="2%" top="20%" />
+      <Svg icon="sourgummyworm" width={12} left="40%" top="60%" />
       <Svg icon="goldfish" width={8} left="95%" top="90%" />
       <Svg icon="marsbar" width={24} left="40%" top="80%" />
       <Svg icon="sourgummyworm" width={20} left="25%" top="5%" />
       <Svg icon="sourgummyworm" width={64} left="95%" top="5%" />
-      <Svg icon="marsbar" width={64} left="5%" top="90%" />
+      <Svg icon="marsbar" width={24} left="5%" top="90%" />
       <Svg icon="goldfish" width={20} left="10%" top="10%" />
       <Svg icon="gummybear" width={12} left="40%" top="30%" />
       <Svg icon="gummybear" width={16} left="10%" top="50%" />
