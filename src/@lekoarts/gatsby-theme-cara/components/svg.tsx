@@ -6,7 +6,9 @@ import { hidden } from "../styles/utils"
 const icons = {
   gummybear: {
       shape:(
-        <svg src="gummybear.png" width="300" height="300"/>
+        <svg width="300" height="300">
+            <image xlinkHref="gummybear.png" width="300" height="300"/>
+        </svg>
       ),
       viewBox: `0 0 300 300`,
   },
