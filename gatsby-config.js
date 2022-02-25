@@ -9,7 +9,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
     siteTitle: `Munchables`,
     siteTitleAlt: `Munchables - A Little Bit of Everything`,
-    siteHeadline: `Munchables`,
+    siteHeadline: `Munchables - A Little Bit of Everything`,
     siteUrl: `https://munchables.io`,
     siteDescription: `Munchables`,
     siteLanguage: `en`,
