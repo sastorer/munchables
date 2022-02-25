@@ -5,8 +5,10 @@ import { hidden } from "../styles/utils"
 
 const icons = {
   gummybear: {
-      shape:(<img src="gummybear.png" width="300" height="300"/>),
-      viewBox: `0 0 30 30`,
+      shape:(
+        <img src="gummybear.png" width="300" height="300"/>
+      ),
+      viewBox: `0 0 300 300`,
   },
   triangle: {
     shape: (
