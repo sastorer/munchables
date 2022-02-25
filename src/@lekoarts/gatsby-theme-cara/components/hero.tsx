@@ -35,7 +35,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Svg icon="marsbar" width={24} left="5%" top="90%" />
       <Svg icon="goldfish" width={20} left="10%" top="10%" />
       <Svg icon="gummybear" width={12} left="40%" top="30%" />
-      <Svg icon="gummybear" width={16} left="10%" top="50%" />
+      <Svg icon="peachring" width={16} left="10%" top="50%" />
       <Svg icon="gummybear" width={8} left="80%" top="70%" />
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
