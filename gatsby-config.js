@@ -14,7 +14,7 @@ module.exports = {
     siteDescription: `Munchables`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@sastorer`,
+    author: `@thesarahstorer`,
   },
   plugins: [
     {
