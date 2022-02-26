@@ -11,7 +11,7 @@ import Intro from "../sections/intro"
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
-    <Divider speed={0.2} offset={offset} factor={factor} bg="#FAFAF9">
+    <Divider speed={0.2} offset={offset} factor={factor} >
       <UpDown>
         <Svg icon="gummybear" width={48} left="10%" top="20%" />
         <Svg icon="sourgummyworm" width={48} left="60%" top="70%" />
