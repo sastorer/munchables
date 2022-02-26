@@ -18,12 +18,12 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
             boxSizing: `inherit`,
           },
         },
+        h1: {
+          fontFamily: `"opake", sans-serif`,
+        },
         html: {
           fontSize: `18px`,
           WebkitTextSizeAdjust: `100%`,
-        },
-        h1: {
-          fontFamily: `"opake", sans-serif`,
         },
         img: {
           borderStyle: `none`,
