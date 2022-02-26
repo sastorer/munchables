@@ -44,8 +44,7 @@ const theme = merge(tailwind, {
       WebkitFontSmoothing: `antialiased`,
       MozOsxFontSmoothing: `grayscale`,
       color: `text`,
-      backgroundColor: `background`,
-      "--theme-ui-colors-background": #FAFAF9, 
+      backgroundColor: `background`, 
       a: {
         color: `primary`,
         textDecoration: `none`,
