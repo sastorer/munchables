@@ -6,6 +6,9 @@ const theme = merge(tailwind, {
   config: {
     useCustomProperties: true,
   },
+  fonts: {
+    heading: `"opake", sans-serif`,
+  }
   colors: {
     primary: tailwind.colors.orange[4],
     secondary: tailwind.colors.indigo[6],
