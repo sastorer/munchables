@@ -5,10 +5,11 @@ type ProjectCardProps = {
   link: string
   title: string
   children: React.ReactNode
+  source: string
   bg: string
 }
 
-const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
+const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) => (
   <a
     href={link}
     target="_blank"
@@ -31,7 +32,6 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       },
     }}
   >
-    <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>{children}</div>
     <div
       sx={{
         textTransform: `uppercase`,
@@ -43,6 +43,13 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       }}
     >
       {title}
+    </div>
+
+    <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>
+      <img src={source} width="300" />
+      <p>
+        {children}
+      </p>
     </div>
   </a>
 )
