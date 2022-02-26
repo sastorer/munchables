@@ -35,7 +35,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
       },
     }}
   >
-    <img src={source} alt="Images describing how it works" width="300" style={imgStyle}/>
+    <img src={source} alt="Images describing how it works" width="500" style={imgStyle}/>
     <div
       sx={{
         textTransform: `uppercase`,
