@@ -5,6 +5,7 @@ import Inner from "../elements/inner"
 import Content from "../elements/content"
 import Svg from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
+import logo from "./images/MunchablesLogo.png"
 // @ts-ignore
 import Intro from "../sections/intro"
 
@@ -40,6 +41,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
+        <img src={logo} />
         <Intro />
       </Inner>
     </Content>
