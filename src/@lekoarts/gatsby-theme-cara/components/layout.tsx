@@ -21,6 +21,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         html: {
           fontSize: `18px`,
           WebkitTextSizeAdjust: `100%`,
+          backgroundColor: `#FAFAF9`,
         },
         body: {
           fontFamily: `"opake", sans-serif`,
