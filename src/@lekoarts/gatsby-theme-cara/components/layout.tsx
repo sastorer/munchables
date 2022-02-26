@@ -18,12 +18,16 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
             boxSizing: `inherit`,
           },
         },
-        h1: {
-          fontFamily: `"opake", sans-serif`,
-        },
         html: {
+          fontFamily: `"opake", sans-serif`,
           fontSize: `18px`,
           WebkitTextSizeAdjust: `100%`,
+        },
+        body: {
+          fontFamily: `"Segoe UI"`,
+        },
+        p: {
+          fontFamily: `"Segoe UI"`,
         },
         img: {
           borderStyle: `none`,
