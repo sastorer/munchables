@@ -8,10 +8,10 @@ const theme = merge(tailwind, {
   },
   colors: {
     primary: tailwind.colors.orange[4],
-    secondary: #EC6223,
+    secondary: `#EC6223`,
     text: tailwind.colors.gray[3],
     heading: tailwind.colors.white,
-    background: tailwind.colors.white,
+    background: tailwind.colors.white,,
     divider: tailwind.colors.gray[8],
     textMuted: tailwind.colors.gray[5],
     icon_brightest: tailwind.colors.white,
