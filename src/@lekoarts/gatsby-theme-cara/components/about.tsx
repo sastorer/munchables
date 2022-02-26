@@ -10,7 +10,7 @@ import AboutMDX from "../sections/about"
 const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
-      bg="divider"
+      bg="#FBAA19"
       clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
       speed={0.2}
       offset={offset}
