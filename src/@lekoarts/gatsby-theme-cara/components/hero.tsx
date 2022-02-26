@@ -17,14 +17,14 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="gummybear" width={30} left="60%" top="15%" />
       </UpDown>
       <UpDownWide>
-        <Svg icon="peachring" width={16} left="80%" top="10%" />
         <Svg icon="peachring" width={12} left="90%" top="50%" />
         <Svg icon="peachring" width={48} left="70%" top="90%" />
         <Svg icon="peachring" width={16} left="30%" top="65%" />
         <Svg icon="pretzel" width={16} left="28%" top="15%" />
         <Svg icon="pretzel" width={40} left="75%" top="10%" />
         <Svg icon="pretzel" width={24} left="45%" top="10%" />
-      </UpDownWide>
+      </UpDownWide>      
+      <Svg icon="peachring" width={16} left="80%" top="10%" />
       <Svg icon="goldfish" width={24} left="5%" top="70%" />
       <Svg icon="marsbar" width={20} left="2%" top="20%" />
       <Svg icon="sourgummyworm" width={12} left="40%" top="60%" />
