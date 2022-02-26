@@ -21,8 +21,8 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         typekit: {
-          id: 'opake',
-          api: '//use.edgefonts.net'
+          id: 'xcj1bih',
+          api: '//use.typekit.net'
         },
       },
     },
