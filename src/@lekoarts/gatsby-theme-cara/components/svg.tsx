@@ -2,18 +2,12 @@
 import * as React from "react"
 import { jsx } from "theme-ui"
 import { hidden } from "../styles/utils"
-import gummybear from "./images/gummybear.png"
-import peachring from "./images/peachring.png"
-import pretzel from "./images/pretzel.png"
-import sourgummyworm from "./images/sourgummyworm.png"
-import marsbar from "./images/marsbar.png"
-import goldfish from "./images/goldfish.png"
 
 const icons = {
   gummybear: {
       shape:(
         <svg width="300" height="300">
-            <image xlinkHref={gummybear} width="300" height="300"/>
+            <image xlinkHref="/gummybear.png" width="300" height="300"/>
         </svg>
       ),
       viewBox: `0 0 300 300`,
@@ -21,7 +15,7 @@ const icons = {
   peachring: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref={peachring} width="300" height="300"/>
+          <image xlinkHref="/peachring.png" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -29,7 +23,7 @@ const icons = {
   pretzel: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref={pretzel} width="300" height="300"/>
+          <image xlinkHref="/pretzel.png" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -37,7 +31,7 @@ const icons = {
   sourgummyworm: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref={sourgummyworm} width="300" height="300"/>
+          <image xlinkHref="/sourgummyworm.png" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -45,7 +39,7 @@ const icons = {
   marsbar: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref={marsbar} width="300" height="300"/>
+          <image xlinkHref="/marsbar.png" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -53,7 +47,7 @@ const icons = {
   goldfish: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref={goldfish} width="300" height="300"/>
+          <image xlinkHref="/goldfish.png" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
