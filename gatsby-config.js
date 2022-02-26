@@ -26,6 +26,8 @@ module.exports = {
     
         /* Font loading mode */
         mode: "async",
+
+        scope: "html",
     
         /* Enable font loading listener to handle FOUT */
         enableListener: true,
@@ -33,7 +35,7 @@ module.exports = {
         /* Web fonts. File link should point to font CSS file. */
         web: [{
             /* Exact name of the font as defied in @font-face CSS rule */
-            name: "opake",
+            name: "Staatliches",
             /* URL to the font CSS file with @font-face definition */
             file: "https://use.typekit.net/xcj1bih.css",
           },
