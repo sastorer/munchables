@@ -48,12 +48,6 @@ module.exports = {
       options: {},
     },
     {
-      resolve: `gatsby-plugin-theme-ui`,
-      options: { 
-        preset: '@theme-ui/preset-tailwind', 
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
