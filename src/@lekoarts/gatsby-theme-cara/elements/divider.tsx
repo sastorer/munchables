@@ -32,7 +32,7 @@ const Divider = ({
       backgroundColor: bg,
       "#contact-wave": {
         color: fill,
-        fill: `currentColor`,
+        fill: `#FF6633`,
       },
       clipPath,
     }}
