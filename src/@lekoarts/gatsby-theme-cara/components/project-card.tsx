@@ -18,7 +18,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
     target="_blank"
     rel="noreferrer noopener"
     sx={{
-      width: `50%`,
+      width: `80%`,
       boxShadow: `lg`,
       position: `relative`,
       textDecoration: `none`,
@@ -35,7 +35,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
       },
     }}
   >
-    <img src={source} alt="Images describing how it works" width="500" style={imgStyle}/>
+    <img src={source} alt="Images describing how it works" width="400" style={imgStyle}/>
     <div
       sx={{
         textTransform: `uppercase`,
