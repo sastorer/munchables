@@ -8,6 +8,9 @@ type ProjectCardProps = {
   source: string
   bg: string
 }
+const imgStyle = {
+  alignSelf: `center`,
+};
 
 const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) => (
   <a
@@ -32,7 +35,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
       },
     }}
   >
-    <img src={source} width="300" />
+    <img src={source} alt="Images describing how it works" width="300" style={imgStyle}/>
     <div
       sx={{
         textTransform: `uppercase`,
