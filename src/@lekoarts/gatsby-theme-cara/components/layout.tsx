@@ -28,9 +28,28 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         },
         p: {
           fontFamily: `"Segoe UI"`,
+          color: `#000000`,
         },
         img: {
           borderStyle: `none`,
+        },
+        h1: {
+          color: `#000000`,
+        }, 
+        h2: {
+          color: `#000000`,
+        },
+        h3: {
+          color: `#000000`,
+        },
+        h4: {
+          color: `#000000`,
+        },
+        h5: {
+          color: `#000000`,
+        },
+        h6: {
+          color: `#000000`,
         },
         pre: {
           fontFamily: `monospace`,
