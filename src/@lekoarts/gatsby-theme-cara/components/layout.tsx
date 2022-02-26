@@ -19,12 +19,11 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           },
         },
         html: {
-          fontFamily: `"opake", sans-serif`,
           fontSize: `18px`,
           WebkitTextSizeAdjust: `100%`,
         },
         body: {
-          fontFamily: `"Segoe UI"`,
+          fontFamily: `"opake", sans-serif`,
         },
         p: {
           fontFamily: `"Segoe UI"`,
