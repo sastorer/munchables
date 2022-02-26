@@ -45,6 +45,7 @@ const theme = merge(tailwind, {
       MozOsxFontSmoothing: `grayscale`,
       color: `text`,
       backgroundColor: `background`,
+      "--theme-ui-colors-background": #FAFAF9, 
       a: {
         color: `primary`,
         textDecoration: `none`,
@@ -54,9 +55,6 @@ const theme = merge(tailwind, {
           textDecoration: `none`,
         },
       },
-    },
-    html: {
-      backgroundColor: tailwind.colors.white,
     },
     p: {
       fontSize: [1, 2],
