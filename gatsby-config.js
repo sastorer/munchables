@@ -18,12 +18,26 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      /* Include plugin */
+      resolve: "gatsby-omni-font-loader",
+    
+      /* Plugin options */
       options: {
-        typekit: {
-          id: 'xcj1bih',
-          api: '//use.typekit.net'
-        },
+    
+        /* Font loading mode */
+        mode: "async",
+    
+        /* Enable font loading listener to handle FOUT */
+        enableListener: true,
+
+        /* Web fonts. File link should point to font CSS file. */
+        web: [{
+            /* Exact name of the font as defied in @font-face CSS rule */
+            name: "opake",
+            /* URL to the font CSS file with @font-face definition */
+            file: "https://use.typekit.net/xcj1bih.css",
+          },
+        ],
       },
     },
     {
