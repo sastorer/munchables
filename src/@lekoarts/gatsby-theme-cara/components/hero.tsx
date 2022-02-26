@@ -41,7 +41,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
-        <img src={logo} width="1000"/>
+        <img src={logo} width="800"/>
         <Intro />
       </Inner>
     </Content>
