@@ -49,7 +49,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
         fontSize: [4, 5],
         fontWeight: `medium`,
         lineHeight: 1,
-        maxWidth: 100%,
+        maxWidth: `100%`,
       }}
     >
       {title}
