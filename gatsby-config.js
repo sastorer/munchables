@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `https://munchables.io`,
     siteDescription: `Munchables`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/MunchablesSplash.jpg`,
     author: `@thesarahstorer`,
   },
   plugins: [
