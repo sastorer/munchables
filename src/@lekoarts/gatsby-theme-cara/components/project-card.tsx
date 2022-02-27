@@ -37,7 +37,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
     }}
 
     style = {{
-      maxWidth: `70%`,
+      maxWidth: `90%`,
     }}
   >
     <img src={source} alt="Images describing how it works" width="400" style={imgStyle}/>
