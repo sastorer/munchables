@@ -10,6 +10,7 @@ type ProjectCardProps = {
 }
 const imgStyle = {
   alignSelf: `center`,
+  maxWidth: `100%`,
 };
 
 const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) => (
@@ -34,6 +35,10 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
         boxShadow: `xl`,
       },
     }}
+
+    style = {{
+      maxWidth: `70%`,
+    }}
   >
     <img src={source} alt="Images describing how it works" width="400" style={imgStyle}/>
     <div
@@ -44,6 +49,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
         fontSize: [4, 5],
         fontWeight: `medium`,
         lineHeight: 1,
+        maxWidth: 100%,
       }}
     >
       {title}
