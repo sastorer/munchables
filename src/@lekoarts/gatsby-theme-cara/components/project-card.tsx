@@ -18,7 +18,7 @@ const ProjectCard = ({ link, title, children, source, bg }: ProjectCardProps) =>
     target="_blank"
     rel="noreferrer noopener"
     sx={{
-      width: `80%`,
+      width: `100%`,
       boxShadow: `lg`,
       position: `relative`,
       textDecoration: `none`,
