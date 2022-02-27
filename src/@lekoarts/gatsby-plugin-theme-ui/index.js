@@ -20,7 +20,7 @@ const theme = merge(tailwind, {
     heading: tailwind.colors.black,
     primary: tailwind.colors.orange[7],
     background: tailwind.colors.white,
-    textMuted: tailwind.colors.gray[8],
+    textMuted: tailwind.colors.black,
     icon_brightest: tailwind.colors.gray[2],
     icon_darker: tailwind.colors.gray[4],
     icon_darkest: tailwind.colors.gray[6],
