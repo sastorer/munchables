@@ -25,7 +25,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="peachring" width={48} left="70%" top="90%" />
         <Svg icon="peachring" width={16} left="30%" top="65%" />
         <Svg icon="pretzel" hiddenMobile width={16} left="28%" top="15%" />
-        <Svg icon="pretzel" hiddenMobile width={40} left="65%" top="10%" />
+        <Svg icon="goldfish" hiddenMobile width={40} left="65%" top="10%" />
         <Svg icon="pretzel" hiddenMobile width={24} left="45%" top="10%" />
       </UpDownWide>      
       <Svg icon="peachring" width={16} left="80%" top="10%" />
