@@ -14,7 +14,7 @@ const Footer = () => {
           mt: 3,
           color: `text`,
           fontWeight: `semibold`,
-          a: { color: `text` },
+          a: { color: `#000000`},
         }}
       >
       </Flex>
