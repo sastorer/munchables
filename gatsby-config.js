@@ -26,8 +26,6 @@ module.exports = {
     
         /* Font loading mode */
         mode: "async",
-
-        preconnect: [`https://use.typekit.net`],
     
         /* Enable font loading listener to handle FOUT */
         enableListener: true,
