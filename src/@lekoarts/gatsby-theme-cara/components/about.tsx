@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import * as React from "react"
 import Divider from "../elements/divider"
 import Inner from "../elements/inner"
@@ -37,7 +39,14 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
-        <AboutMDX />
+      <div
+          sx={{
+            h2: { color: `#000000`},
+            p: {color: `#000000`},
+          }}
+        >
+          <AboutMDX />
+        </div>
       </Inner>
     </Content>
   </div>

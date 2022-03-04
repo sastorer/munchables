@@ -5,8 +5,14 @@ const Footer = () => {
 
   return (
     <Box as="footer" variant="footer">
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+      <div
+        sx={{
+          p: {color: `#000000`, fontFamily: `"opake", sans-serif`},
+        }}
+      >
+        <p> Copyright &copy; {new Date().getFullYear()}. All rights reserved. </p>
       <br />
+      </div>
       <Flex
         sx={{
           justifyContent: `center`,

@@ -28,7 +28,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         },
         p: {
           fontFamily: `"Segoe UI"`,
-        },
+        },       
         img: {
           borderStyle: `none`,
         },

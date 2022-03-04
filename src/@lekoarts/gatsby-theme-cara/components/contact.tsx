@@ -36,7 +36,15 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
-        <ContactMDX />
+      <div
+          sx={{
+            h2: { color: `#000000`},
+            p: {color: `#000000`},
+            a: {color: `#3792CB`},
+          }}
+        >
+          <ContactMDX />
+        </div>
       </Inner>
       <Footer />
     </Content>
