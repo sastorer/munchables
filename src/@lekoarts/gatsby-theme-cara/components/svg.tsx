@@ -7,7 +7,7 @@ const icons = {
   gummybear: {
       shape:(
         <svg width="300" height="300">
-            <image xlinkHref="/gummybear.png" width="300" height="300"/>
+            <image xlinkHref="/gummybear.webp" width="300" height="300"/>
         </svg>
       ),
       viewBox: `0 0 300 300`,
@@ -15,7 +15,7 @@ const icons = {
   peachring: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref="/peachring.png" width="300" height="300"/>
+          <image xlinkHref="/peachring.webp" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -23,7 +23,7 @@ const icons = {
   pretzel: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref="/pretzel.png" width="300" height="300"/>
+          <image xlinkHref="/pretzel.webp" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -31,7 +31,7 @@ const icons = {
   sourgummyworm: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref="/sourgummyworm.png" width="300" height="300"/>
+          <image xlinkHref="/sourgummyworm.webp" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -39,7 +39,7 @@ const icons = {
   marsbar: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref="/marsbar.png" width="300" height="300"/>
+          <image xlinkHref="/marsbar.webp" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
@@ -47,7 +47,7 @@ const icons = {
   goldfish: {
     shape:(
       <svg width="300" height="300">
-          <image xlinkHref="/goldfish.png" width="300" height="300"/>
+          <image xlinkHref="/goldfish.webp" width="300" height="300"/>
       </svg>
     ),
     viewBox: `0 0 300 300`,
